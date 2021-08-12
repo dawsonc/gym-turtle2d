@@ -210,8 +210,6 @@ class Turtle2DEnv(gym.Env):
 
         info = {"cost_collision": cost, "cost": cost}
 
-        print(info)
-
         # Return next_observation, reward, done, info
         return next_observation, reward, goal_reached, info
 
